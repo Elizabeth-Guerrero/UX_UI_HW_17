@@ -1,0 +1,30 @@
+nav.inline-block{
+    display:inline-block;
+    vertical-align: top;
+}
+
+div.logo{
+    width: 25px;
+    padding: 1px;
+    text-align: center;
+ }
+ 
+ li.inline-block{
+    width: 50%;
+    margin-left: auto;
+}
+
+section.heroImg{
+    height: 600px;
+    padding: 25px;
+}
+
+footer{
+    background-color: #373738;
+    padding: 1px;
+    text-align: center;
+}
+footer.ul{
+    display: inline-block;
+    vertical-align:top
+}
