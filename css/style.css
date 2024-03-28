@@ -29,6 +29,7 @@ div.logo{
 footer{
     background-color: #373738;
     padding: 1px;
+    color: #fff
 }
 footer.ul{
     display: inline-block;
