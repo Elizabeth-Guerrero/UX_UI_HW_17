@@ -1,3 +1,8 @@
+body {
+    background-color: rgba(0, 160, 174, 1);
+    margin: 0px;
+    padding: 0px;
+}
 .inline-block{
     display: inline-block;
     vertical-align: top;
@@ -20,19 +25,51 @@ nav ul li button{
 }
 
 div.logo{
-    width: 23%;
+    width: 10%;
     padding: 1%;
  }
 
 .logo{
+    border-radius: 10px;
     text-align: center;
+    background-color: #FDB5B2
 }
 
 .content{
-    width: 500px;
+    width: 860px;
     margin: 0 auto;
+    color: #fff
 }
 
+.flipCards{
+    background-color: #FFF
+}
+
+#flip-1 {
+    width: 100px;
+    padding-left: 30%;
+}
+
+#flip-2 {
+    width: 110px;
+    padding-left: 30%;
+}
+#flip-3 {
+    width: 113px;
+    padding-left: 22%;
+}
+#flip-4 {
+    width: 113px;
+    padding-left: 30%;
+}
+#flip-5 {
+    width: 109px;
+    padding-left: 30%;
+}
+#flip-6 {
+    width: 113px;
+    padding-left: 30%;
+}
 footer{
     background-color: #7146C4;
     padding: 1px;
