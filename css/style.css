@@ -2,6 +2,7 @@ body {
     background-color: rgba(0, 160, 174, 1);
     margin: 0px;
     padding: 0px;
+    height: 100%;
 }
 .inline-block{
     display: inline-block;
@@ -32,7 +33,6 @@ div.logo{
 .logo{
     border-radius: 10px;
     text-align: center;
-    background-color: #FDB5B2
 }
 
 .content{
@@ -41,34 +41,86 @@ div.logo{
     color: #fff
 }
 
+.vertical-line {
+    border-left: 6px dashed #00A0AE;
+    height: 1500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+
+}
+
 .flipCards{
     background-color: #FFF
 }
 
 #flip-1 {
-    width: 100px;
-    padding-left: 30%;
+    width: 125px;
 }
 #flip-2 {
-    width: 110px;
-    padding-left: 30%;
+    width: 125px;
 }
 #flip-3 {
-    width: 113px;
-    padding-left: 22%;
+    width: 125px;
 }
 #flip-4 {
-    width: 113px;
-    padding-left: 30%;
+    width: 125px;
 }
 #flip-5 {
-    width: 109px;
-    padding-left: 30%;
+    width: 125px;
 }
 #flip-6 {
-    width: 113px;
-    padding-left: 30%;
+    width: 125px;
 }
+#flip-7 {
+    width: 125px;
+}
+#flip-8 {
+    width: 125px;
+}
+#flip-9 {
+    width: 125px;
+}
+#flip-10 {
+    width: 125px;
+}
+#flip-11 {
+    width: 125px;
+}
+#flip-12 {
+    width: 125px;
+}
+#flip-13 {
+    width: 125px;
+}
+#flip-14 {
+    width: 125px;
+}
+#flip-15 {
+    width: 125px;
+}
+#flip-16 {
+    width: 125px;
+}
+#flip-17 {
+    width: 125px;
+}
+#flip-18 {
+    width: 125px;
+}
+#flip-19 {
+    width: 125px;
+}
+#flip-20 {
+    width: 125px;
+}
+#flip-21 {
+    width: 125px;
+}
+#flip-22 {
+    width: 125px;
+}
+
 footer{
     background-color: #7146C4;
     padding: 1px;
