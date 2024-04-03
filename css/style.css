@@ -7,7 +7,6 @@ body {
 .inline-block{
     display: inline-block;
     vertical-align: top;
-
 }
 nav {
     background-color: #FA6B65;
@@ -19,114 +18,168 @@ nav {
     align-items: center;
     flex-grow: 0;
 }
-
+nav ul {
+    width: 50%;
+    margin-left: auto;
+  }
+  nav ul li {
+      display: inline;
+      margin-right: 10px;
+  }
 nav ul li button{
     background-color: #69BE5C;
+    border-color: #FFF;
+    border-radius: 10px;
     color:#FFF
 }
-
 div.logo{
     width: 10%;
     padding: 1%;
  }
-
 .logo{
     border-radius: 10px;
     text-align: center;
 }
-
 .content{
     width: 860px;
     margin: 0 auto;
     color: #fff
 }
-
+h1{
+    color:#FFF;
+    text-align: center;
+}
 .vertical-line {
     border-left: 6px dashed #00A0AE;
-    height: 1500px;
+    height: 5369px;
     position: absolute;
     left: 50%;
     margin-left: -3px;
-
 }
-
-.flipCards{
-    background-color: #FFF
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: #FFF;
 }
-
 #flip-1 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 30%;
 }
 #flip-2 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 60%;
 }
 #flip-3 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 30%;
 }
 #flip-4 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 60%;
 }
 #flip-5 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 30%;
 }
 #flip-6 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 60%;
 }
 #flip-7 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 30%;
 }
 #flip-8 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 60%;
 }
 #flip-9 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 30%;
 }
 #flip-10 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 60%;
 }
 #flip-11 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 30%;
 }
 #flip-12 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 60%;
 }
 #flip-13 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 30%;
 }
 #flip-14 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 60%;
 }
 #flip-15 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 30%;
 }
 #flip-16 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 60%;
 }
 #flip-17 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 30%;
 }
 #flip-18 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 60%;
 }
 #flip-19 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 30%;
 }
 #flip-20 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 60%;
 }
 #flip-21 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 30%;
 }
 #flip-22 {
     width: 125px;
+    padding-top: 5%;
+    padding-left: 60%;
+    padding-bottom: 5%;
 }
-
-footer{
-    background-color: #7146C4;
-    padding: 1px;
-    color: #fff
+footer {
+    background-color:#7146C4;
+    color:#FFF;
 }
-footer.ul{
-    display: inline-block;
-    vertical-align:top;
+@media only screen and (max-width: 600){
+    .container {
+        display: flex;
+        flex-direction: column;
+}
 }
