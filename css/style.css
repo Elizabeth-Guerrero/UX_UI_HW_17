@@ -103,10 +103,10 @@ h1{
 }
 /* The actual content */
 .content-2 {
-  padding: 20px 30px;
+  padding: 10px 20px;
   background-color: #FA6B65;
   position: relative;
-  border-radius:10px;
+  border-radius:6px;
   color: white;
 }
 footer{
@@ -115,7 +115,6 @@ footer{
 }
 
 @media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
   .timeline::after {
   left: 31px;
   }
