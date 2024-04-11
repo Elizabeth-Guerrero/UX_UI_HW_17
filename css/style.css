@@ -113,8 +113,15 @@ footer{
   background-color: #7146C4;
   color: #FFF;
 }
-
 @media screen and (max-width: 600px) {
+  .inline-block{
+    display: none;
+  }
+  .content-1{
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
   .timeline::after {
   left: 31px;
   }
@@ -125,14 +132,6 @@ footer{
   padding-left: 70px;
   padding-right: 25px;
   }
-  
-  /* Make sure that all arrows are pointing leftwards */
-  .container::before {
-  left: 60px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-  }
 
   /* Make sure all circles are at the same spot */
   .left::after, .right::after {
@@ -142,5 +141,9 @@ footer{
   /* Make all right containers behave like the left ones */
   .right {
   left: 0%;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
   }
 }
